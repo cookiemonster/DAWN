@@ -1,5 +1,8 @@
-# DAWN
+# DAWN _Linux_
 DAWN is a lightweight Linux distribution designed to deliver a quiet, distraction-free environment—inspired by the peace of early morning clarity. It handles security, optimization, and system maintenance entirely in the background, allowing you to focus on your work without invasive telemetry, false-alarm security bloat, or OS friction.
+
+## Screenshot
+![Desktop view](Screenshots/Screenshot_20260808_213930.png)
 
 ## Key Features
 
