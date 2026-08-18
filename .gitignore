@@ -1,0 +1,14 @@
+# Arch / Pacman build output
+*.pkg.tar.zst
+*.pkg.tar.xz
+*.log
+src/
+pkg/
+
+# ISO build temporary files
+work/
+out/
+
+# OS / Editor temporary files
+.DS_Store
+*.swp
