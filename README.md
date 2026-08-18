@@ -27,5 +27,23 @@ DAWN is crafted using the best components of the open-source ecosystem:
 
 ## Availability & Roadmap
 DAWN is currently in private preview while system components are refined for daily driver reliability.
-
 * **Target Public Release:** **September 17, 2026** *(Marking the 35th anniversary of the initial Linux source code release).*
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## High-Level Architecture
+See [architecture.md](architecture.md).
+
+## Module Map
+| Module                                              | Purpose                                                      |
+| --------------------------------------------------- | ------------------------------------------------------------ |
+| [`boot`](modules/boot/boot.md)                      | Bootloader and initial kernel parameters.                    |
+| [`desktops`](modules/desktops/desktops.md)          | GUI environments and workspace setups.                       |
+| [`environment`](modules/environment/environment.md) | Global environment variables, apps and shell configurations. |
+| [`hardware`](modules/hardware/hardware.md)          | Platform-specific machine hardware definitions.              |
+| [`hosts`](modules/hosts/hosts.md)                   | The ultimate definition of specific server/client instances. |
+| [`networking`](modules/networking/networking.md)    | Network interfaces, WiFi, and VPN configurations.            |
+| [`programs`](modules/programs/programs.md)          | General software package management and configuration.       |
+| [`services`](modules/services/services.md)          | Daemon processes and background services.                    |
+| [`users`](modules/users/users.md)                   | User accounts, groups, and sudoer permissions.               |
